@@ -1,0 +1,63 @@
+owner: adrianwedd
+repo: failurefirst-status
+
+sites:
+  - name: failurefirst.org
+    url: https://failurefirst.org
+    expectedStatusCodes:
+      - 200
+
+  - name: Papers (CCS 2026)
+    url: https://failurefirst.org/papers/failure-first-embodied-ai-ccs2026.pdf
+    expectedStatusCodes:
+      - 200
+
+  - name: Blog
+    url: https://failurefirst.org/blog/
+    expectedStatusCodes:
+      - 200
+
+  - name: Daily Papers
+    url: https://failurefirst.org/daily-paper/
+    expectedStatusCodes:
+      - 200
+
+  - name: CDN (Media)
+    url: https://cdn.failurefirst.org/audio/daily-paper/2302.05733-audio-overview.m4a
+    expectedStatusCodes:
+      - 200
+    method: HEAD
+
+  - name: RSS Feed
+    url: https://failurefirst.org/rss.xml
+    expectedStatusCodes:
+      - 200
+
+  - name: ads.txt
+    url: https://failurefirst.org/ads.txt
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.failurefirst.org
+  name: Failure-First Status
+  theme: dark
+  introTitle: "Failure-First System Status"
+  introMessage: "Real-time monitoring for [failurefirst.org](https://failurefirst.org) and associated services."
+  navbar:
+    - title: Main Site
+      href: https://failurefirst.org
+    - title: GitHub
+      href: https://github.com/adrianwedd/failure-first
+
+i18n:
+  activeIncidents: Current issues
+  allSystemsOperational: All systems operational
+  incidentReport: Incident report
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  graphs: "0 */6 * * *"
+  responseTime: "0 */6 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
