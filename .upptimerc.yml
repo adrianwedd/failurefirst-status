@@ -26,7 +26,6 @@ sites:
     url: https://cdn.failurefirst.org/audio/daily-paper/2302.05733-audio-overview.m4a
     expectedStatusCodes:
       - 200
-    method: HEAD
 
   - name: RSS Feed
     url: https://failurefirst.org/rss.xml
