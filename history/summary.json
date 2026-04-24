@@ -4,72 +4,80 @@
     "url": "https://failurefirst.org",
     "icon": "https://icons.duckduckgo.com/ip3/failurefirst.org.ico",
     "slug": "failurefirst-org",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 175,
-    "timeDay": 222,
-    "timeWeek": 183,
-    "timeMonth": 175,
-    "timeYear": 175,
-    "dailyMinutesDown": {}
+    "time": 178,
+    "timeDay": 217,
+    "timeWeek": 196,
+    "timeMonth": 178,
+    "timeYear": 178,
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   },
   {
     "name": "Papers (CCS 2026)",
     "url": "https://failurefirst.org/papers/failure-first-embodied-ai-ccs2026.pdf",
     "icon": "https://icons.duckduckgo.com/ip3/failurefirst.org.ico",
     "slug": "papers-ccs-2026",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 123,
-    "timeDay": 253,
-    "timeWeek": 157,
-    "timeMonth": 123,
-    "timeYear": 123,
-    "dailyMinutesDown": {}
+    "time": 124,
+    "timeDay": 119,
+    "timeWeek": 155,
+    "timeMonth": 124,
+    "timeYear": 124,
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   },
   {
     "name": "Blog",
     "url": "https://failurefirst.org/blog/",
     "icon": "https://icons.duckduckgo.com/ip3/failurefirst.org.ico",
     "slug": "blog",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 81,
-    "timeDay": 112,
-    "timeWeek": 94,
-    "timeMonth": 81,
-    "timeYear": 81,
-    "dailyMinutesDown": {}
+    "time": 84,
+    "timeDay": 107,
+    "timeWeek": 96,
+    "timeMonth": 84,
+    "timeYear": 84,
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   },
   {
     "name": "Daily Papers",
     "url": "https://failurefirst.org/daily-paper/",
     "icon": "https://icons.duckduckgo.com/ip3/failurefirst.org.ico",
     "slug": "daily-papers",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 86,
-    "timeDay": 150,
-    "timeWeek": 101,
+    "timeDay": 75,
+    "timeWeek": 97,
     "timeMonth": 86,
     "timeYear": 86,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   },
   {
     "name": "CDN (Media)",
@@ -82,11 +90,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
-    "time": 689,
-    "timeDay": 596,
-    "timeWeek": 662,
-    "timeMonth": 689,
-    "timeYear": 689,
+    "time": 682,
+    "timeDay": 595,
+    "timeWeek": 620,
+    "timeMonth": 682,
+    "timeYear": 682,
     "dailyMinutesDown": {
       "2026-03-31": 2
     }
@@ -96,35 +104,39 @@
     "url": "https://failurefirst.org/rss.xml",
     "icon": "https://icons.duckduckgo.com/ip3/failurefirst.org.ico",
     "slug": "rss-feed",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 73,
-    "timeDay": 93,
-    "timeWeek": 85,
-    "timeMonth": 73,
-    "timeYear": 73,
-    "dailyMinutesDown": {}
+    "time": 74,
+    "timeDay": 79,
+    "timeWeek": 84,
+    "timeMonth": 74,
+    "timeYear": 74,
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   },
   {
     "name": "ads.txt",
     "url": "https://failurefirst.org/ads.txt",
     "icon": "https://icons.duckduckgo.com/ip3/failurefirst.org.ico",
     "slug": "ads-txt",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 48,
-    "timeDay": 89,
-    "timeWeek": 60,
+    "timeDay": 49,
+    "timeWeek": 59,
     "timeMonth": 48,
     "timeYear": 48,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   }
 ]
