@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
+# Serialize all generated-history writers; never interrupt an active monitor.
+concurrency:
+  group: upptime-main-writers
+  cancel-in-progress: false
+  queue: max
 permissions:
   contents: write
   issues: write
@@ -11,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Resolve the branch tip after acquiring the shared writer lock.
+          ref: ${{ github.ref_name }}
       - uses: upptime/uptime-monitor@v1.43.12
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
