@@ -163,16 +163,16 @@
     "url": "https://cdn.failurefirst.org/audio/daily-paper/2302.05733-audio-overview.m4a",
     "icon": "https://icons.duckduckgo.com/ip3/cdn.failurefirst.org.ico",
     "slug": "cdn-media",
-    "status": "down",
+    "status": "up",
     "uptime": "99.77%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.93%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.79%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.77%",
     "time": 878,
-    "timeDay": 987,
-    "timeWeek": 1470,
-    "timeMonth": 1253,
+    "timeDay": 935,
+    "timeWeek": 1446,
+    "timeMonth": 1249,
     "timeYear": 878,
     "dailyMinutesDown": {
       "2026-03-31": 2,
@@ -182,7 +182,7 @@
       "2026-06-08": 34,
       "2026-09-30": 12,
       "2026-10-23": 18,
-      "2026-10-28": 0
+      "2026-10-28": 3
     }
   },
   {
@@ -226,7 +226,7 @@
       "2026-05-30": 61,
       "2026-05-31": 31,
       "2026-06-02": 837,
-      "2026-10-28": 663,
+      "2026-10-28": 666,
       "2026-10-27": 1440,
       "2026-10-26": 1440,
       "2026-10-25": 1440,
